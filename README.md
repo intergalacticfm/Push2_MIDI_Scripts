@@ -7,15 +7,15 @@ Push 2 is almost entirely controlled via sysex and python scripts, so it is poss
 Since scripts change from time to time, I do not comment the .py files at the moment. So here are the changes:
 
 Pushbase/push_base.py
-Switched CUE and MASTER volume controls - prevents from accidentally turning down master volume
-Tap Tempo is disabled since it is very poor and will hiccup playback even from one press.
+	Switched CUE and MASTER volume controls - prevents from accidentally turning down master volume
+	Tap Tempo is disabled since it is very poor and will hiccup playback even from one press.
 
 Push2/Push2.py
-Track Mix mode default is initially for the selected TRACK, not the entire SET. Quicker workflow imo.
+	Track Mix mode default is initially for the selected TRACK, not the entire SET. Quicker workflow imo.
 
 drum_group_component.py
-Shade level of muted pads is darker.
+	Shade level of muted pads is darker.
 
 skin_default.py
-Bunch of color changes that communicate if Automation is on/off, a drumrack pad is muted but selected, white midi keys on the pads are dimmer, some buttons flash faster or off beat so they are easier to notice.
+	Bunch of color changes that communicate if Automation is on/off, a drumrack pad is muted but selected, white midi keys on the pads are dimmer, some buttons flash faster or off beat so they are easier to notice.
 

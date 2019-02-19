@@ -9,7 +9,7 @@ Switched CUE and MASTER volume controls - prevents from accidentally turning dow
 Tap Tempo is disabled since it is very poor and will hiccup playback even from one press. (LINE 592)<br/><br/>
 
 <b>Push2/Push2.py</b><br/>
-Track Mix mode default is initially for the selected TRACK, not the entire SET. Quicker workflow imo. (LINE 637)<br/><br/>
+Track Mix mode default is initially for the selected TRACK, not the entire SET. Quicker workflow imo. (LINE 622)<br/><br/>
 
 <b>Push2/drum_group_component.py</b><br/>
 Shade level of muted pads is darker. (LINE 223)<br/><br/>

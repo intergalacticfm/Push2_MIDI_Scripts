@@ -15,5 +15,5 @@ Track Mix mode default is initially for the selected TRACK, not the entire SET. 
 Shade level of muted pads is darker. (LINE 223)<br/><br/>
 
 <b>Push2/skin_default.py</b><br/>
-Bunch of color changes that communicate if Automation is on/off, a drumrack pad is muted but selected, white midi keys on the pads are dimmer, Repeat causes unselected modes to flash in Amber color, some buttons flash faster or off beat so they are easier to notice.
+Color changes that communicate if Automation is on/off, a drumrack pad is muted (LINE 47) but selected (LINE 48) pulsates, dramrack pad is soloed (LINE 50) pulses,  white midi keys on the pads are dimmer (LINE 34), Repeat causes unselected modes to flash in Amber color, mute off is Amber color (LINE 131), locked mute (LINE 134) and locked solo modes (LINE 135) flash offbeat to be more noticeable, Metronome button is dimmed (LINE 226), Fixed Length button is dimmer but flashes faster when active to be more noticeable (LINE 229-), Accent button is dimmer but flashes faster when active to be more noticeable (LINE 235-), Automation button is blue when off (LINE 194).
 

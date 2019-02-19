@@ -5,7 +5,7 @@ Push 2 is almost entirely controlled via sysex and python scripts, so it is poss
 Since scripts change from time to time, I do not comment the .py files at the moment. So here are the changes:<br/>
 
 <b>Pushbase/push_base.py</b><br/>
-Switched CUE and MASTER volume controls - prevents from accidentally turning down master volume. (LINE 808)<br/>
+Switched CUE (LINE 795) and MASTER (LINE 793) volume controls - prevents from accidentally turning down master volume. <br/>
 Tap Tempo is disabled since it is very poor and will hiccup playback even from one press. (LINE 592)<br/><br/>
 
 <b>Push2/Push2.py</b><br/>

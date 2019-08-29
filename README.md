@@ -5,25 +5,21 @@ Push 2 is almost entirely controlled via sysex and python scripts, so it is poss
 Since scripts change from time to time, I do not comment the .py files at the moment. So here are the changes:<br/>
 
 <b>Pushbase/push_base.py</b><br/>
-Switched CUE (LINE 795) and MASTER (LINE 793) volume controls - prevents from accidentally turning down master volume. <br/>
-Tap Tempo is disabled since it is very poor and will hiccup playback even from one press. (LINE 587)<br/><br/>
+Switched CUE and MASTER volume controls - prevents from accidentally turning down master volume. (LINE 808)<br/>
+Tap Tempo is disabled since it is very poor and will hiccup playback even from one press. (LINE 592)<br/><br/>
 
 <b>Pushbase/quantization_component.py</b><br/>
 Default Quantization is changed from 100% to 44%. (LINE 43)<br/><br/>
 
 <b>Push2/Push2.py</b><br/>
-Track Mix mode default is initially for the selected TRACK, not the entire SET. Quicker workflow imo. (LINE 622)<br/><br/>
+Track Mix mode default is initially for the selected TRACK, not the entire SET. Quicker workflow imo. (LINE 673)<br/><br/>
 
 <b>Push2/drum_group_component.py</b><br/>
 Shade level of muted pads is darker. (LINE 223)<br/><br/>
 
 <b>Push2/skin_default.py</b><br/>
-<<<<<<< HEAD
 Bunch of color changes that communicate if Automation is on/off, a drumrack pad is muted but selected, white midi keys on the pads are dimmer, Repeat causes unselected modes to flash in Amber color, some buttons flash faster or off beat so they are easier to notice.<br/><br/><br/>
 
 If working on windows, you can mass rename a folder with the python files to txt files to quickly search the contents for needed keywords with the terminal command "ren *.py *.txt".<br/><br/>
 
-=======
-Color changes that communicate if Automation is on/off, a drumrack pad is muted (LINE 47) but selected (LINE 48) pulsates, dramrack pad is soloed (LINE 50) pulses,  white midi keys on the pads are dimmer (LINE 34), Repeat causes unselected modes to flash in Amber color, mute off is Amber color (LINE 131), locked mute (LINE 134) and locked solo modes (LINE 135) flash offbeat to be more noticeable, Metronome button is dimmed (LINE 226), Fixed Length button is dimmer but flashes faster when active to be more noticeable (LINE 229-), Accent button is dimmer but flashes faster when active to be more noticeable (LINE 235-), Automation button is blue when off (LINE 194).
->>>>>>> 64cf72f4cd50596bca88da8423c128f622d6b036
 

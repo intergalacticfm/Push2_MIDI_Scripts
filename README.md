@@ -5,14 +5,14 @@ Push 2 is almost entirely controlled via sysex and python scripts, so it is poss
 Since scripts change from time to time, I do not comment the .py files at the moment. So here are the changes:<br/>
 
 <b>Pushbase/push_base.py</b><br/>
-Switched CUE and MASTER volume controls - prevents from accidentally turning down master volume. (LINE 808)<br/>
-Tap Tempo is disabled since it is very poor and will hiccup playback even from one press. (LINE 592)<br/><br/>
+Switched CUE and MASTER volume controls - prevents from accidentally turning down master volume. (LINE 795, 797)<br/>
+Tap Tempo is disabled since it is very poor and will hiccup playback even from one press. (LINE 585)<br/><br/>
 
 <b>Pushbase/quantization_component.py</b><br/>
 Default Quantization is changed from 100% to 44%. (LINE 43)<br/><br/>
 
 <b>Push2/Push2.py</b><br/>
-Track Mix mode default is initially for the selected TRACK, not the entire SET. Quicker workflow imo. (LINE 673)<br/><br/>
+Track Mix mode default is initially for the selected TRACK, not the entire SET. Quicker workflow imo. (LINE 620)<br/><br/>
 
 <b>Push2/drum_group_component.py</b><br/>
 Shade level of muted pads is darker. (LINE 223)<br/><br/>
